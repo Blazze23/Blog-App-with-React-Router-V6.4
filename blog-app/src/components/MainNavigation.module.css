@@ -1,0 +1,21 @@
+.header {
+  padding: 2rem;
+}
+
+.header ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.header a {
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #ffb612;
+}
